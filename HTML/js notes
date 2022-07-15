@@ -1,0 +1,79 @@
+
+let name = 'Jeannflo';
+console.log(name)
+
+// Cannot be a reserved keyword after let "if, el, bar, let"
+// Should be meaningful labels
+// Cannot start with a number example "1name"
+// Cannot contain a space hyphen (-) 
+// Case-sensitive 
+// When setting declarations seperate them by lines for example:
+// let firsName = 'Jean';
+// let lastName = 'Florencio';
+
+// when we dont want the vaule of a variable to change use (const = constant) - (let = variable)
+//let interestRate = 0.3;
+//interestRate = 1;
+//console.log(interestRate);
+
+// Primitives / Values - String, Number, Boolean, undefined, null
+// Reference Types Object, Array, Function
+let name = 'Jean'; // String Literal
+let age = 29; // Number Literal
+let isApproved = false; // Boolean Literal
+let firstName = undefined;
+let selectedColor = null; // use null when wanting to clear the value of a veriable
+
+
+// Languages --> Static (statically-typed) ex. string name = 'john'; / Dynamic (Dynamically-typed) ex. let name = 'john';
+
+// dont need when using a key vaule pair - let name = 'Jean'; // Variables
+// dont need when using a key vaule pair - let age = 29; // Variables
+let person = {
+    name: 'Jean',
+    age: 29
+};
+// Dot notation 
+person.name = 'Jason';
+
+// Bracket Notation 
+person['name'] = "Kate";
+
+console.log(person);
+
+// dont need "let name" or "let age" when having a single property with difined keys within ; please see below
+// let name = 'Jean';
+// let age = 29;
+let person = {
+    name: 'Jean',
+    age: 30
+};
+// changing the name of "person" -- Dot notation
+person.name = 'John'
+//Bracket notation
+
+person['name'] = 'Mary'
+or 
+
+let selection = 'name';
+person[selection] = 'Mary'
+console.log(person)
+
+//Arrays
+//Empty brackets "[]" = array literal = empty array
+//Array is data of structure that we use to represent a list of items!
+// please go back to vid 36:00 min mark 
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 1;
+console.log(selectedColors.length);
+
+
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+}
+//John is arrument to the greet function
+//name is aparameter of the greet function 
+greet('John');
+greet('Marry');
+
+//boooks and payroll resident pretty much pay the staff
