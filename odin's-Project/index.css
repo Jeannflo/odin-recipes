@@ -1,0 +1,22 @@
+img {
+    border-radius: 10px;
+    width: 150px;
+    }
+    body {
+        background-color: black;
+        color: aliceblue;
+    }
+
+h1, p {
+        text-align: center;
+    }
+#recipe-title {
+    text-align: center;
+    }
+#recipe {
+    border-radius: 10px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
